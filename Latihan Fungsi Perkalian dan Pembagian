@@ -1,0 +1,11 @@
+def getKali(myList):
+    result = 1
+    for num in myList:
+        result *= num
+    return result
+
+def getBagi(myList):
+    result = myList[0]
+    for num in myList[1:]:
+        result /= num
+    return result
